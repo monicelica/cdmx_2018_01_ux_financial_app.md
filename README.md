@@ -1,239 +1,329 @@
 # Aplicación financiera
 
-## Preámbulo
-
-El banco más importante del país ha lanzado una nueva aplicación móvil al
-mercado para que sus usuarios puedan visualizar sus gastos mensuales y fomentar
-el ahorro. Luego de tener algunos meses en el mercado, el
-equipo detrás de este nuevo producto ha decidido contratar a una
-agencia/consultora de UX que los ayude a definir la dirección y evolución del
-producto. Tú has sido elegida como la consultora líder de UX y se te ha asignado el proyecto para hacer un diagnóstico, evaluar el desempeño de la aplicación y proponer los cambios necesarios para optimizar el producto.
+## 1.	Objetivos Iniciales del Proyecto.
+-----------------
 
 
-## Introducción
+El banco “Tus finanzas” propone  lo siguiente:
+### Objetivo
+Se quiere apostar en aumentar la inversión en anuncios para generar un incremento en las descargas y estas se conviertan en usuarios para el banco, brindando confianza o interés en adquirir otro servicio por parte de este, y mejorar el aspecto de ahorro.
 
-### Contexto
+También se busca la difusión a través de recomendaciones de personas que estén haciendo uso de la aplicación y se interesen para poder probarla.
 
-Durante la primera semana de entendimiento de los requerimientos, el Product
-Manager del equipo les brinda el contexto:
+Trasladar lo que te da el banco en una aplicación, ayudar a controlar los ingresos, crear confianza siendo un aliado financiero, haciendo una fidelidad financiera y que el banco sea su primera opción como recurso en dada necesidad.
 
->“Todo empezó hace un año cuando vimos que en EEUU y Europa estaban saliendo
-  nuevas aplicaciones financieras que nos llamaron la atención. Unas se enfocan
-  en darle visibilidad a sus usuarios sobre los gastos, otras en facilitar pagos
-  a terceros y otras a fomentar el ahorro. Inspirados en un par de ellas,
-  decidimos lanzar una nueva aplicación. Decidimos que era mejor crear un
-  producto desde cero - en lugar de modificar la aplicación actual de banca
-  móvil - para poder desarrollarla con un equipo totalmente nuevo, en el
-  laboratorio de innovación, bajo prácticas ágiles. Sabemos que no es ideal que
-  nuestros usuarios tengan que usar dos aplicaciones, pero desarrollar con un
-  equipo nuevo que corra ágil nos da mayor libertad.
+### Visión a futuro
+A través de la app realizar todos los movimientos bancarios, y que solo exista sucursales físicas para llevar acabo tramites de papeleo.
+### Diferenciador
+Aliado financiero, promover el hábito de ahorro. Sustentada por la data que generen a través de la aplicación.
+### Valor agregado
+Que tengan un control de sus gastos.
 
-> Empezamos entrevistando a algunos usuarios y revisando los resultados de un
-  estudio de mercado que nos proporcionó el área de marketing. Eso nos dió una
-  idea inicial de qué funcionalidades son más relevantes aquí en nuestro
-  mercado. Con base en esos resultados, creamos nuestros primeros user personas
-  una primaria y una secundaria ( creemos que estas personas no son las que
-  nosotros pensábamos inicialmente), y diseñamos y desarrollamos un ‘Producto
-  mínimo viable’ (MVP) en 2 meses en iOS. Ese MVP lo hemos lanzado y tenemos
-  alrededor de 6 meses de data. Hoy estamos en el proceso de entender los
-  resultados iniciales y de sacar una segunda iteración del producto. Y para eso
-  las hemos contratado. Toda la documentación de este producto la tenemos en una
-  carpeta de [Google Drive](https://drive.google.com/drive/u/0/folders/1NWf4701uKDsCK0eLNI8RXEocrI1g1zqd). Les doy acceso.
+Base a los puntos mencionados anteriormente se propone el siguiente plan de trabajo:
 
-> Necesitamos traer una propuesta del nuevo diseño en dos semanas porque tenemos
-  que presentarla a nuestro Gerente General en la reunión trimestral. Es
-  importante que cualquier cosa que presentemos ya incorpore feedback de testing
-  con usuarios. El Gerente General, animado por el crecimiento del número de
-  descargas que ha tenido el app, quiere duplicar el presupuesto de Facebook
-  Ads… Yo no estoy tan seguro; quisiera que como parte de su trabajo estas
-  próximas dos semanas, entendamos ese punto también.”
+### Propuesta:
+1.	Aumentar número de instalaciones de la app
 
-![preview app de finanzas](https://lh3.googleusercontent.com/WyfUPurRuoXyyeZScQtdLhk063ZozToVlujoljul3TDwJW5KZy3Om_LvuB-TB9IcG2r_BCSpoXtXL-bZjIeGBFxQmL4GYEM2QXnQovq6EvixYaO_Z5-gFMvljM9jye7bVofendMteBI)
+Se propone identificar las etapas dentro del funnels las cuales estén fallando y poder mejorarlas para que aumente el porcentaje de usuarios que instalen la app.
 
-### Recursos
+**Como se realizara:**
 
-En esta carpeta de [Google Drive](https://drive.google.com/drive/u/0/folders/1NWf4701uKDsCK0eLNI8RXEocrI1g1zqd) y en los siguientes
-links, encontrarán:
+* Identificar y definir a los usuarios que están interesados en adquirir la aplicación para conocer qué es lo que buscan en esta y poder implementarlo.
 
-- Los user persona primario y secundario del proyecto
-- Los user flows iniciales y actuales del proyecto del MVP
-- El [diseño del app en Figma](https://www.figma.com/file/Gr5GEIRrjF9eIplIeEHUSJNt/proyecto-2-banca?node-id=0%3A477)
-  , con una guía de componentes y el [Prototipo navegable](https://marvelapp.com/e9h245e)
-- Funnel Analytics de los primeros 6 meses del MVP
-- Data de uso del MVP de los primeros 6 meses
-- [Landing Page](http://tus-finanzas.pagedemo.co) inicial del producto
+*	Analizar el contenido y la arquitectura de información de la landing page y app store e identificar los puntos de mejora. 
 
-## Objetivos de aprendizaje
+2.	Aumentar la Frecuencia de Sesiones 
 
-El objetivo principal de este proyecto es que te enfrentes al reto de rediseñar
-un producto ya existente. Muchas de ustedes terminarán trabajando en productos
-existentes y deben estar familiarizadas con el proceso de analizar la data del
-producto, complementar con investigación de campo y con esto definir una
-estrategia de crecimiento del producto. Puedes leer sobre el trabajo de un
-UX Designer en rediseño este [blogpost](https://blog.continuum.cl/preguntas-para-dejar-de-ser-ux-designer-y-empezar-a-ser-un-ux-redesigner-143e5467ec8d).
+Se propone mejorar e incrementar una funcionalidad en específico “Gasto”, cumpliendo con las necesidades del usuario para que este sea más recurrente en la aplicación, y posteriormente agregar otras funcionalidades por periodos de tiempo.
 
-En este proyecto pondrás en práctica habilidades de: análisis de datos,
-investigación de campo, pensamiento crítico, cuestionamiento, síntesis, diseño
-de componentes de la interfaz y user testing.
+**Como se realizara:**
 
-## Consideraciones generales
+*	Se identificara la competencia directa de la aplicación.
 
-Como ya habrás notado, gran parte del trabajo de UX tiene relación con el
-desempeño de tus habilidades blandas. Estas habilidades nos acompañan a lo largo
-de cualquier proyecto y su desarrollo es clave para el éxito. Estas habilidades
-no sólo son utilizadas a la hora de entender al usuario, sino a lo largo de toda
-la ejecución, es decir desde cómo planificamos hasta nuestra presentación al
-cliente.
+*	Se compararan las funcionalidades de la competencia.
 
-Anteriormente, nos habíamos concentrado en el desarrollo de tu curiosidad y
-empatía, practicado cómo relacionarte con el cliente y el usuario. Siempre debes
-pensar quiénes son y qué necesitan, y no enfocarte en lo que tú consideras que
-podría ser la solución correcta. Se trata de entender que nosotros no somos el
-usuario, y debemos hacer el ejercicio empático de comprenderlo a él y a nuestro
-cliente.
+•	Se identificara los pain points del usuario al usar la aplicación ya existente, para mejorarlos.
 
-Este proyecto, a diferencia de otros, no debes partir desde cero generando un
-prototipo, sino investigar lo que el banco ya ha construido y en base a eso
-proponer un nueva alternativa. Para esto, te aconsejamos comenzar por investigar
-la información que tienes; entender qué datos ya manejas y qué elementos
-necesitas averiguar para completar tu proyecto. De esta manera, tu planificación
-es muy relevante para comprender la problemática.
+3.	Adquirir nuevos usuarios
 
-Al planificar podrás comprender de qué manera estructurar tu proyecto y qué
-elementos debes investigar. Además, te permitirá trabajar de mejor manera con tu
-compañera, te aconsejamos que consideres tiempo para poder iterar sobre las
-posibilidades de mejora y también para preparar la presentación.
+Como punto de partida el cliente notifico que pensaba duplicar el presupuesto para redes sociales con la finalidad de aumentar el número de usuarios dando más difusión a “facebook”, sin embargo se propone invertir ese presupuesto en el desarrollo de un prototipo de la app para dispositivo Android.
 
-La calidad del proyecto depende totalmente de tu proactividad y autoaprendizaje,
-si no conoces plataformas financieras parte por investigar sobre ellas. No
-esperes que los contenidos lleguen a ti, más bien busca todo lo que necesites
-para poder encontrar la mejor solución.
+**Como se realizara:**
 
-Parte importante de tu trabajo como UX designer es tomar decisiones.
-Efectivamente existen múltiples herramientas que puedes utilizar, debes
-comprender para qué y con qué finalidad escoges usar cada una de ellas. Siempre
-piensa que debes justificar todo gasto con tu con consultora y el cliente, cada
-desición que tomes en el proyecto debe ser fundamentada, no sigas pasos
-mecánicos por seguirlos, cuestiónate constantemente.
+*	Se identificara el número de usuarios que cuentan con un dispositivo Android
 
-Por último, considera que la calidad de tu presentación es tan importante como
-el proceso completo. Un proyecto que no se aprecia al ser presentado no es un
-buen proyecto. Si vas a utilizar una ppt frente a un cliente, se prolija en el
-diseño de tus láminas y en la información que entregas, también busca la mejor
-manera de mostrar tu demo y por sobre todo prueba antes de presentar frente al
-cliente. En la presentación no deben ocurrir errores.
+*	Se realizara una comparación dependiendo de nuestro usuario primario para conocer que dispositivo se utiliza mas.
 
-## Entrega
+4.	Brindar un incentivo 
 
-El proyecto será entregado en un repositorio de GitHub. En él deberás agregar
-lo siguiente:
+Se propone el dar al usuario un incentivo para que este se sienta motivado a tener un uso frecuente de la app y que se cumpla el objetivo de generar una educación de ahorro, y también para que se vuelva un usuario leal a la aplicación.
 
-README.md  detallando:
+**Como se realizara:**
 
-* Objetivos iniciales del proyecto
-* Problemas encontrados tanto a nivel de negocio como a nivel de usuario
-* Recomendaciones de próximos pasos para el banco con respecto al app (estas
-  recomendaciones tendrán que ser sustentadas por tu investigación):
-  * Qué modificaciones se deberían hacer
-  * Cuáles deberían ser los próximos desarrollos
-  * En qué se debería invertir el presupuesto de marketing
-* De acuerdo al punto anterior, de requerirse cambios y desarrollos nuevos,
-  estos deberán ser diseñados y entregados en un prototipo de alta definición.
-* Link de Zeplin, InVision inspects o Marvel Hand-offs para compartir tus
-  diseños con desarrolladores
+*	Conocer motivadores del usuario al usar la app.
 
-Un video en Loom de máximo 5 minutos explicando tu documento.
-* Estos 5 minutos tienes que utilizarlos para explicar los puntos indicados en
-  el `README.md` y para hacer un demo de la solución propuesta.
+*	Conocer la preferencia del usuario a nuestra app vs otras app. 
 
-En las otras carpetas del repositorio o en las carpetas de Google Drive podrás
-agregar los documentos complementarios que sustenten tu proceso.
+## 2.	Problemas encontrados tanto negocio-usuario:
+-----
 
-### Hacker edition
+### User personas:
 
-Para el hacker edition puedes elegir una o varias de estas opciones:
+Se observa que no hay un usuario definido, por lo cual no se sabe con exactitud para quien esta dirigida la app, lo que implica que no se está considerando las necesidades del usuario y si es funcional la app para él.
 
-- Antes de empezar a desarrollar este proyecto, lista cuáles fueron tus
-  aprendizajes durante el proyecto 1 y en qué cosas te gustaría mejorar durante 
-  el proyecto 2. Al terminar el proyecto 2 vuelve a esta lista y chequea cómo te 
-  fue con esos retos, ¿los cumpliste? Muestrános esta lista y esta reflexión
-  en un documento adicional (en el formato que prefieras).
-- Investiga sobre chatbots y sustenta si sería bueno incluir uno en alguna parte
-  del journey del uso del producto. Si crees que un chatbot añadiría valor,
-  prototípalo usando [Botsociety](http://bit.ly/ux-chatbot).
-- En lugar de usar Github para documentar tu proceso de trabajo, documéntalo en
-  su propia web, puedes usar Wix, Instapage, Squarespace, Google Sites o crear
-  tu propia web desde 0. 
-- Utiliza los diseños exportados en Zeplin, Handoffs o Inspects y desarróllalos
-  utilizando las tecnologías web que aprendiste en el common core: HTML, CSS y
-  JS. Puedes usar los frameworks que quieras. Recuerda que la aplicación tiene
-  que ser mobile-friendly. Despliega el código en GitHub Pages o Heroku.
-- Escribe un post en Medium contando tu proceso de investigación.
-- Crea un video mostrando el demo del app, aquí algunos ejemplos:
-  - [Genius Scan](https://youtu.be/wKqnB6_Z-J0)
-  - [Nequi](https://www.youtube.com/watch?v=BDLAXvSQCZ8)
-  - [Simple Bank](https://www.youtube.com/watch?v=0eqD5o6422M)
-  - [Pocket](https://www.youtube.com/watch?v=MoJHYNKmS2U)
+### Análisis de Data:
+•	Funnels
 
-## Otras consideraciones
+Dentro de este registro se puede observar lo siguiente:
 
-### 1) Planeamiento y presupuesto
+El incremento a lo que corresponde a las impresiones de Facebook (única difusión) del mes de Febrero a Julio se duplico, pero se identifica como fase de mejora las visitas al landign page, ya que a este punto solo llega 1.8% de las personas lo que provoca como resultado el que solo un .015% de estas realicen una conversión.
 
-En el reto del marketplace elegiste las tareas que podías
-realizar deacuerdo a una lista con puntajes predeterminados que te proporcionamos. Para este reto,
-la lista de tareas, el valor en puntos de cada tarea y el presupuesto total
-de las actividades a realizar lo crearás tú y lo tendrás que sustentar con tu
-coach. Adicionalmente, deberás sustentar con tu coach qué entregables harás
-llegar al banco al final de tu investigación y por qué. El coach te aprobará
-estos entregables o te dará feedback para mejorarlos.
+Si se mejora el proceso se incrementara el número de personas que lleguen a la activación (etapa donde se obtienen datos del usuario e instalación de la app)
+Se observa que la funcionalidad de la cual se hace mas uso es “Gastos” y posteriormente el de ahorro.
 
-Cuando hagas tu presupuesto y pienses en los entregables recuerda que el tiempo
-de desarrollo de este proyecto es de dos semanas. También, recuerda qué partes
-te tomaron más tiempo en el desarrollo del proyecto 1 y los aprendizajes que
-tuviste al desarrollar el proyecto 1.
+•	Visitors-Mobile-Device
 
-### 2) Prototipo de alta fidelidad
+Se observa que el numero de usuarios que utiliza un dispositivo Android es mayor que los que utilizan ios, sin embargo el numero disminuye respecto al tiempo de una sesió
 
-Existen varias herramientas que puedes utilizar para crear diseñar el producto,
-en este caso el diseño viene en Figma y el prototipo en Marvel, así que puedes
-seguir usando esas herramientas. Sin embargo, eres libre de utilizar otras
-como Adobe XD e Invision. Para el prototipo intenta utilizar Marvel o Invision,
-ya que para el testing tendrás que usar una herramienta llamada
-[Maze](https://maze.design/) que funciona mejor con estas.
+### Análisis de la publicidad mostrada en face-book (banner):
+*	La información brindada resulta corta y sencilla sin embargo no esta infomando a nuestro publico objetivo nada que provoque interés al producto.
 
-Recuerda que el diseño que trabajes debe seguir los fundamentos de diseño visual
-como: contraste, alineación, jerarquía, entre otros.
+*	Falta de información respecto a funcionalidades, dispositivos, uso y beneficios.
 
-## Evaluación
+*	No se muestra ningún tipo de información referente al banco: no hay logotipo
 
-Recuerda revisar la rúbrica para ver la descripción detallada de cada habilidad
-y cada nivel. A continuación presentamos los niveles esperados de cada habilidad
-que deberías alcanzar al finalizar este proyecto:
+*	No se identifica una tipografía o color constante, no hay homogeneidad en ellos.
 
-### UX Design
 
-|Habilidad|Nivel Esperado|
-|:---|:---:|
-|User centricity| 5 |
-|Planificación| 4 |
-|Entrevistas y testing| 4 |
-|Observación| 4 |
-|Síntesis de resultados| 4 |
-|Flujos de usuario| 4 |
-|Arquitectura de la información| 3 |
-|Prototyping| 5 |
-|Business mindset| 5 |
-|Visual Design| 4 |
 
-### Soft skills
 
-|Habilidad|Nivel Esperado|
-|:---|:---:|
-|Planificación y organización| 4 |
-|Autoaprendizaje| 4 |
-|Solución de Problemas| 4 |
-|Dar y recibir feedback| 4 |
-|Adaptabilidad| 4 |
-|Trabajo en equipo (trabajo colaborativo y responsabilidad)| 4 |
-|Comunicación eficaz| 4 |
-|Presentaciones| 4 
+### Análisis de Landing-Page:
+*	Los usuarios no se sienten seguros al registrar su correo e información, ya que no se les informa que uso se le dará a esta.
+
+*	No brinda información del Banco.
+
+*	No brinda suficiente información de la app y sus funcionalidades.
+
+*	La iconografía que se llega a utilizar no corresponde con el contexto de la información.
+
+*	Visualmente es buena.
+
+*	No resalta el nombre del banco lo cual confunde al usuario.
+
+*	No menciona los dispositivos por los cuales se puede tener acceso a la aplicación
+
+   ### Análisis de app store:
+*	No cuenta con suficientes comentarios de usuarios que ya estén registardos.
+
+*	Modificar el Age Rating ya que no corresponde a la clasificación de la app.
+
+### Análisis de la app:
+**NEGATIVO**
+
+•	Navegación
+
+Hay muchos enlaces rotos, con esto me refiero a links o botones que deben enlazarte a otro sitio o pantalla sin embargo no lo hacen.
+
+No hay opción de ir atrás lo cual corta el flujo.
+
+No hay opción de cerrar sesión, dejando tu cuenta activa y venerable 
+
+•	Writing
+
+No se informa lo suficiente al usario respecto a la información que se le esta pidiendo.
+
+Al crear ahorros el usuario no identifica que tipo de dato se le pide
+
+No se identifica lo que es clickeable 
+
+No se utilizan términos familiares
+
+•	Arquitectura de la información
+
+No se identifica donde elimar/ borrar o editar cuentas de ahorro.
+
+El menú esta vacio, no tiene contenido
+
+La información que se visualiza en la pantalla principal no es funcional para el usuario
+
+No es funcional la foto 
+
+Los iconos esta preestablecidos
+
+•	Login
+
+Muchos pasos para el registro
+
+No se cuenta con la información requerida
+
+No brinda seguridad
+
+•	Elementos visuales
+
+La tipografía es pequeña y e color de la misma no es legible
+
+No se identifica el logotipo de la institución a la que pertenece el banco
+
+**POSITIVO**
+
+*	Los colores cumplen con la función de transmitir diferentes sensaciones al usuario
+
+*	Resulta intuitiva
+
+*	La huella brinda seguridad
+
+*	Son de agrado los iconos de las categorías
+
+## 3.	Recomendaciones para el banco:
+----
+### User personas:
+
+Se propone que sean mujeres/hombres de 28-38 años ya que dentro este rango cuenta con un trabajo estable, con ingresos mayores a $18,000 MNX mensuales, lo cual les permite contar con alguna cuenta de ahorro, inversión, tarjeta de crédito/débito o préstamos.
+
+Se identifica que este grupo de usuarios es el más informado respecto a servicios financieros.
+
+**Razones por la que la app seria productiva para ellos:**
+
+*	se identifica a este grupo como los que hacen mayor uso de tarjetas bancarias, ya que se acomodan muy bien a los pagos de meses sin intereses.
+
+*	 Pertenecen al mayor porcentaje de quienes realizan compras en línea, hacen uso de servicios de tipo streming, etc.
+*	Finalmente se considera que son más afines a pagar vía online (aplicaciones en sus dispositivos móviles).
+
+### Propuesta para la publicidad mostrada en face-book (banner):
+*	Se debe considerar la resolución de este para que cargue de manera mas rápida, considerando todos los dispositivos por los cuales el usuario accedera.
+*	Hacer uso de mensajes directos e impactantes, siguiendo la línea de cortos y sencillos.
+*	Se debe incluir una llama a la acion es decir: “haga click aqui”, “Informate ahora”
+*	Mostrar el nombre de la empresa o compañía dueña del producto para que provoque mayor veracidad hacia el producto.
+*	Contar con una paleta de color y tipografía establecida para todos los anuncios.
+
+### Propuesta para Landing-Page:
+*	Landing page de tipo: click Through (página “de paso”)
+*	Eliminar todo tipo de formularios.
+*	Vídeo principal (mostrando el producto o servicio usado en contexto)
+*	Mencionar beneficios (iconos relacionados)
+*	Mostrar el resto de las funciones (detalladas)
+*	Acentuar la identidad del banco
+*	Continuar haciendo uso de:
+
+**Propuesta de Venta Única:**
+
+El titular principal  
+
+-Titular de apoyo 
+
+-Declaración de refuerzo 
+
+-Argumento de cierre
+
+Prueba social (“Quiero lo que él o ella tiene”) 
+Conversión 
+
+### Propuesta de app store:
+*	Incentivar a los usuarios al realizar comentarios directamente en la app store y así aumentar su calificación y popularidad
+*	Mantenerse en constante revisión dichos comentarios y preguntas, para resolver dudas e inconformidades para demostrar el compromiso de la app.
+
+
+
+
+
+
+### Propuesta para la app:
+Se propone dividir la aplicación para las diferentes cuentas bancarias tanto de crédito y débito, ya que nuestros usuarios suelen tener más de dos cuentas.
+
+* Propuesta de valor
+
+Uno de los objetivos del banco es que los usuarios tengan la costumbre de ahorrar, pero para lograr esto el usuario debe tener una administración correcta de sus ingresos, es por eso que se propone la funcionalidad de presupuesto donde el usuario podrá identificar en donde está gastando más y en qué días, para que posteriormente pueda disminuir o modificar ese gasto.
+
+También se propone implementar la funcionalidad de metas lo equivalente a ahorro, sin embargo estas metas se dividirán en tres secciones: activas, logradas y pausadas.
+
+Las metas activas equivale a las metas en las cuales se está trabajando, las pausadas son aquellas metas que se identifican como algo que se quiere pero por el momento no es prioritario, finalmente las metas logradas permite llevar un registro de todas estas metas que finalizamos en algún momento.
+
+Las metas mostrara al usuario información como: Cantidad a ahorrar, fecha para la que se quiere lograr esa meta, ingresar categoría de la meta y la cantidad de dinero que se dará semanal, quincenal, o mensualmente, dependiendo del usuario.
+
+*	Arquitectura de la información:
+
+Se propone un menú fijo en la parte de abajo donde se accederá a las funcionalidades más usadas para el usuario.
+
+También un menú oculto que se ubicara al hacer clik a un costado izquierdo, el contenido de este serán funcionalidades secundarias para el usuario y que no visitara de manera tan frecuente como las del menú fijo.
+
+Se busca que el usuario siempre este lo más informado posible de donde esta y lo que está haciendo, para que esto sea posible se utiliza diferentes iconos y colores por ejemplo ala estar en sección de ahorro el icono correspondiente a este estará se mostrara de otro color y siempre en la parte de arriba se le mostrara lo que está haciendo por ejemplo: creando nueva cuenta.
+
+*	Navegación
+
+Se implementan botones para que el usuario siempre pueda regresar un paso a tras o dirigirse a otra funcionalidad sin necesidad de hacer todo un recorrido.
+
+*	Login
+
+Se propone implementar la opción de poder recuperar cuenta.
+
+Para el registro se propone reducir el número de pasos y la información que se requiere. 
+
+Se conservara la huella digital para dispositivos que cuenten con esta herramienta.
+
+*	Elementos visuales
+
+Se tiene como objetivo que toda la información sea lo más visual posible para que el usuario pueda acceder a ella de la manera más rápida, esto se lograra haciendo uso de gráficas, iconos y diferentes colores dependiendo el caso.
+
+### Próximos alcances:
+*	Guía de usuario: Al ser nuevo usuario al usar la app muchas veces se desconoce todas las funcionalidades y herramientas, es por eso que se propone una guía rápido de cómo funciona y que ofrece la app.
+
+*	Retos de ahorro: Muchos de los usuarios al fijarse un ahorro a falta de recordatorios, etc. olvidan su compromiso de su meta para ahorrar, al implementar esto se espera que aumente este compromiso
+*	Ingresar un registro de gastos en efectivo: Los usuarios también registran gastos en efectivo, mientras que este pueda abarcar el registro de todos sus gastos la probabilidad de llevar una buena administración del dinero aumentara.
+*	Poder administrar cards de inicio:
+ La información que se muestra como inicio a veces no es la misma que necesita de un usuario a otro es por eso que se propone que esta parte se pueda personalizar dependiendo de las necesidades del usuario.
+### Próximas inversiones:
+*	Implementar funcionalidades anteriormente propuestas.
+*	Invertir en el desarrollo de la app en Android.
+## Propuesta para APP
+---------------------
+[User flow](image/user.jpg)
+
+[Flow chart](image/flow.jpg)
+
+[Sketching de app](https://drive.google.com/open?id=1UoUJdk3H6qvqhYxVP-T6yBrfk_HTdDYp)
+
+[Prototipo clickeable](https://marvelapp.com/44ibe0c)
+
+## Documentación
+---------------------
+[Costumer Journey Map](image/journy.png)
+
+[User personas](image/MAN.png)
+
+[Guia de preguntas](image/preguntas1.png)
+
+[Benchmark BANCOS](https://docs.google.com/spreadsheets/d/19PI0KdgSaGPdDcNjLrCLIj6Ovhc23LGORfmM_kv0zzU/edit#gid=0)
+
+[Benchmark APPS](https://drive.google.com/open?id=1buxo_uhI4hFQSBerY0xrHEEwnZODFBnv)
+
+[Entevistas](https://drive.google.com/open?id=1evYN6-qlJjVC0XxZfNB0gBlBGouD0wD0)
+
+[Video Loom](https://marvelapp.com/44ibe0c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
